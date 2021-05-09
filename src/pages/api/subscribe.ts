@@ -3,7 +3,6 @@ import { getSession } from "next-auth/client";
 import { fauna } from "../../services/fauna";
 import { stripe } from "../../services/stripe";
 import { query as q } from "faunadb";
-import { Console } from "node:console";
 
 type User = {
   ref: {
