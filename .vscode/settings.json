@@ -1,0 +1,7 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "[javascript]": {
+
+        "editor.autoClosingBrackets": "always"
+    }
+}
