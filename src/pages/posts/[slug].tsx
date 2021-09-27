@@ -57,8 +57,6 @@ export const getServerSideProps: GetServerSideProps = async ({
   const prismic = getPrismicClient(req);
 
   const response = await prismic.getByUID("post", String(slug), {});
-  console.log(response);
-
   const posts = {
     slug,
     title: RichText.asText(response.data.title),
